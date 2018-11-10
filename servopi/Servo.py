@@ -36,6 +36,10 @@ class Servo(object):
 
         return self._angle
 
+    def read_duty_cycle(self):
+
+        return self._duty_cycle
+
     def __configure_pwm(self):
 
         self._pwm = GPIO.PWM(self._pin, self.s_model.frequency)
