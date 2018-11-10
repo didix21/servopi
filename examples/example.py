@@ -1,5 +1,5 @@
 
-from Servo import Servo
+from servopi.Servo import Servo
 import sys
 import RPi.GPIO as GPIO
 import time

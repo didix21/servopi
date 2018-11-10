@@ -1,6 +1,6 @@
 
 import RPi.GPIO as GPIO
-from Servo import Servo
+from servopi.Servo import Servo
 import time
 import sys
 

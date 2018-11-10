@@ -1,5 +1,5 @@
 
-from servomodels import ServoModel
+import Ser
 import RPi.GPIO as GPIO
 import time
 
