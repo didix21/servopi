@@ -61,7 +61,4 @@ class Servo(object):
 if __name__ == "__main__":
 
     newservo = Servo(1)
-    print("frequency: ", newservo.s_model.frequency)
-    print("m_pulse: ", newservo.s_model.m_pulse)
-    print("n_pulse: ", newservo.s_model.n_pulse)
-    print("Duty Cycle: ", newservo.write_angle(10))
+
