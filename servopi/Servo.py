@@ -8,7 +8,7 @@ class Servo(object):
 
     """
     def __init__(self, rasp_pin, servo_model='', *args):
-        """Initialize the raspberry pin where servo is connected and the model of the servo.
+        """Initialize the raspberry pin, where servo is connected, and the model of the servo.
         Setting `servo_model = 'sg90'` will set the parameters of a sg90. This means will set
         pulse width to 20 ms. Moreover will set the angle range which servo can move. In this case,
         0º til 180º. If no model is set then sg90 parameters are chosen by default. Moreover,

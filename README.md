@@ -27,7 +27,6 @@ Define a SG90 servo model.
 ```Python
 
 from servopi import Servo
-import time
 
 
 def main():
@@ -37,7 +36,6 @@ def main():
     my_servo = Servo(11, "Sg90")
     my_servo.write_angle(angle)
     print("Moving: ", angle)
-    time.sleep(1)
 
 
 if __name__ == "__main__":
@@ -51,7 +49,7 @@ if __name__ == "__main__":
 ```Python
 
 from servopi import Servo
-import time
+
 
 angle = 120
 rasberry_pin = 11
@@ -67,7 +65,6 @@ def main():
     my_servo = Servo(11, "myown", (frequency, max_angle, min_pulse_width))
     my_servo.write_angle(angle)
     print("Moving: ", angle)
-    time.sleep(1)
 
 
 if __name__ == "__main__":
