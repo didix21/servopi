@@ -10,7 +10,6 @@ setup(name='servopi',
       description='This Python package contains a tool that allows to control servo motors in raspberry pi. '
                   'You can define a servo motor in a easy way without worrying about setting the raspberry pi PWM.'
                   ' Moreover, you can move your servo motor using angles.',
-      long_description=open('./doc/source/README.rst').read(),
       platforms=['Python 3.6'],
       packages=['servopi'],
       include_package_data=True,
