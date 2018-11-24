@@ -1,15 +1,14 @@
 from setuptools import setup
 
 setup(name='servopi',
-      version='1.0.0',
+      version='1.0.1',
       license='MIT',
       author='Didac Coll',
       author_email='didaccoll_93@hotmail.com',
       maintainer='Didac Coll',
       maintainer_email='didaccoll_93@hotmail.com',
-      description='This Python package contains a tool that allows to control servo motors in raspberry pi. '
-                  'You can define a servo motor in a easy way without worrying about setting the raspberry pi PWM.'
-                  ' Moreover, you can move your servo motor using angles.',
+      description='This Python package contains a tool that allows to control servo motors in raspberry pi.',
+      long_description=open('./doc/README.rst').read(),
       platforms=['Python 3.6'],
       packages=['servopi'],
       include_package_data=True,
