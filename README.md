@@ -1,4 +1,5 @@
 # servopi
+[![Build Status](https://travis-ci.org/didix21/mdutils.svg?branch=master)](https://travis-ci.org/didix21/mdutils)
 
 ## Table of Contents
 
@@ -17,6 +18,12 @@ Moreover, you can move your servo motor using angles.
 - Set a servo pin.
 - Move using angles.
 - Move using duty cycle.
+
+## Installation
+
+```bash
+    $ pip install servopi
+```
 
 ## Examples
 
